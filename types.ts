@@ -38,7 +38,7 @@ function logger() {
 };
 
 // null / undefined
-type Bla = string | undefined
+type Bla = string | undefined //Isso é um Union
 
 // never - Nunca vai retornar
 function error(): never {

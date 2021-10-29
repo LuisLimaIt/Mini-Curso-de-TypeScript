@@ -1,4 +1,4 @@
-//Type Alias
+//Type Alias - Serve somente para tipos primitivos
 type Uid = number | String
 
 function logDetails(uid: Uid, item: string) {

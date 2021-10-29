@@ -43,14 +43,22 @@ type Bla = string | undefined
 // never - Nunca vai retornar
 function error(): never {
     throw new Error("error")
-}
+};
 
 // object
 let cart: object
 cart= {
     key: "fi"
-}
+};
 
+// Type Inference
+
+let message2 = "mensagem definida" // Como a primeira atribuição foi String, ele entende que o tipo é = String
+message2 = "string nova";
+
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+});
 
 
 

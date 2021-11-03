@@ -37,4 +37,4 @@ type TodoPreview2 = Omit<Todo, "description">
 const todo4: TodoPreview2 = {
     title: "Ler Dragon Ball novamente",
     completed: false
-}
+};

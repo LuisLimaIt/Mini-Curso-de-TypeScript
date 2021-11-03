@@ -5,9 +5,9 @@ interface Game {
     title: string;
 };
 
-interface DLC {
-    extra: string;
-};
+//interface DLC {
+//    extra: string;
+//};
 
 //interseção / extend
 
@@ -15,7 +15,7 @@ interface GameCollection extends Game, DLC {}
 
 //implements
 
-class CreateGame implements GameCollection {}
+// class CreateGame implements GameCollection {}
 
 //declarar função
 interface getSimilars {
@@ -23,7 +23,7 @@ interface getSimilars {
 };
 
 //=================Diferenças==============//
-interface ID extends number {}
+// interface ID extends number {}
 
 //não consigo definir tuplas na interface
 interface Tuple {

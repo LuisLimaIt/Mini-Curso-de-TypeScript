@@ -15,7 +15,7 @@ type GameCollectionT = Game & DLCT & { content: boolean };
 
 //implements
 
-class CreateGameT implements GameCollectionT {}
+// class CreateGameT implements GameCollectionT {}
 
 //declarar função
 
@@ -36,7 +36,7 @@ type TupleT = [number, number];
 //Apenas uma declaração por escopo
 
 type JQueryT = { a: string};
-type JQueryT = { b: string};
+// type JQueryT = { b: string};
 
 // Mais recomendado na maioria das vezes
 //React - Props
